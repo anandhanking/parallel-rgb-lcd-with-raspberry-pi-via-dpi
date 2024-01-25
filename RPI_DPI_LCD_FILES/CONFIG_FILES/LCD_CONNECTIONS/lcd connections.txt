@@ -1,0 +1,41 @@
+-------------------------------RGB565 CFG 1----------------------------------------------------------
+
+#COLOR DATA LINES
+R3 = GPIO15, R4 = GPIO16, R5 = GPIO17, R6 = GPIO18, R7 = GPIO19,
+G2 = GPIO9,  G3 = GPIO10, G4 = GPIO11, G5 = GPIO12, G6 = GPIO13, G7 = GPIO14,
+B3 = GPIO4,  B4 = GPIO5,  B5 = GPIO6,  B6 = GPIO7,  B7 = GPIO8,
+
+#CONTROL LINES
+HSYNC = GPIO3, VSYNC = GPIO 2, PCLK = GPIO0, DE = GPIO 1
+
+#GROUNDED PINS
+R0,R1,R2,G0,G1,B0,B1,B2 to GND.
+
+-------------------------------RGB565 CFG 2-----------------------------------------------------------
+RGB565-PADHI
+
+4.3inch 480*272 resolution parallel rgb lcd as per 
+following order to raspberry pi bcm gpios. to work with DPI18 on GPIOs for dpi_output_format=3
+
+#COLOR DATA LINES
+R3 = GPIO20, R4 = GPIO21, R5 = GPIO22, R6 = GPIO23, R7 = GPIO24,
+G2 = GPIO12, G3 = GPIO13, G4 = GPIO14, G5 = GPIO15, G6 = GPIO16, G7 = GPIO17,
+B3 = GPIO4,  B4 = GPIO5,  B5 = GPIO6,  B6 = GPIO7,  B7 = GPIO8,
+
+#GROUNDED PINS
+R0,R1,R2,G0,G1,B0,B1,B2 to GND.
+
+#CONTROL LINES
+HSYNC = GPIO3, VSYNC = GPIO 2, PCLK = GPIO0, DE = GPIO 1
+
+--------------------------------RGB888-----------------------------------------------------------------
+
+RGB888 24BIT MODE WITH ALL DATA LINES (AS PER PINOUT.XYZ ==> DPI PINOUT.)
+
+#COLOR DATA LINES
+R0 = GPIO20, R1 = GPIO21, R2 = GPIO22, R3 = GPIO23, R4 = GPIO24, R5 = GPIO25, R6 = GPIO26, R7 = GPIO27,
+G0 = GPIO12, G1 = GPIO13, G2 = GPIO14, G3 = GPIO15, G4 = GPIO16, G5 = GPIO17, G6 = GPIO18, G7 = GPIO19,
+B0 = GPIO4,  B1 = GPIO5,  B2 = GPIO6,  B3 = GPI07,  B4 = GPIO8,  B5 = GPIO9,  B6 = GPIO10, B7 = GPIO11,
+
+#CONTROL LINES
+HSYNC = GPIO3, VSYNC = GPIO2, PCLK = GPIO0, DE = GPIO1
