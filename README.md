@@ -12,3 +12,8 @@ i have tested the RGB888 with the following lcd display
   1. 4.3inch 480x272 res. display. (i don't have it's name or item number.)
 
 all the lcd connections are can be found on lcd_connections folder/lcd_connections.txt file.
+
+also the hsync,vsync parameters given in config files are taken from the lcd's datasheet. 
+please refer datasheet of your own lcd and change the values as per datasheet.
+because i tried the values on internet, but the display not worked well. the border pixels are cut off.
+so use your datasheet values for lcd control configs.
