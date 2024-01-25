@@ -1,0 +1,1 @@
+# parallel-rgb-lcd-with-raspberry-pi-via-dpi
